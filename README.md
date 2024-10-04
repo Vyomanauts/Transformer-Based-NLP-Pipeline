@@ -10,3 +10,10 @@ The dataset used for this project is the [IMDB Reviews dataset](https://www.kagg
 
 **Note:** The dataset is not included in this repository. Please download it from the provided link and ensure the CSV file is named `IMDB_Dataset.csv`.
 
+## Assumptions and Decisions
+
+1. **Model Choice**: Initially, the project intended to utilize a pre-trained BERT model for the sentiment analysis task. However, due to integration challenges and performance considerations, a Bidirectional LSTM model was implemented instead. This decision was made to ensure timely project completion while still achieving effective sentiment classification.
+
+2. **Data Quality**: It is assumed that the dataset used is clean and well-structured after the preprocessing steps. Any inherent biases or inconsistencies in the data may affect the model's performance.
+
+3. **Environment Compatibility**: The code and models are assumed to run in a compatible Python environment with all specified dependencies correctly installed.
