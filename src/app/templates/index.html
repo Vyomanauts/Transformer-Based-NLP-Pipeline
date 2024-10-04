@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Classification & Text Generation</title>
+</head>
+<body>
+    <h1>Sentiment Classification</h1>
+    <form action="/classify" method="post">
+        <label for="text">Enter text for sentiment classification:</label><br>
+        <input type="text" id="text" name="text"><br><br>
+        <button type="submit">Classify</button>
+    </form>
+    <h1>Text Generation</h1>
+    <form action="/generate" method="post">
+        <label for="prompt">Enter a prompt for text generation:</label><br>
+        <input type="text" id="prompt" name="prompt"><br><br>
+        <button type="submit">Generate</button>
+    </form>
+</body>
+</html>
